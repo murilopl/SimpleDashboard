@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('SimpleDashboard', [
+  .module('simpledashboard', [
     'ngAnimate',
     'ngTouch',
     'ngStorage',
