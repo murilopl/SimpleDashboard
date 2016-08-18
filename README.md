@@ -1,7 +1,8 @@
 # **Simple Dashboard**
 by [Murilo Parente]
 
-I've been looking panels of implementations and structure easy , to my surprise, I didn't found. I did this to learn a little more of AngularJS,  and also to help the community.
+I've been looking panels with easy implementations and structure, to my surprise, I didn't found.
+I did this to learn a little more of AngularJS, and also to help the community.
 
 # [DEMO]
 
