@@ -8,13 +8,6 @@
 	z-index: 1000;
 	position: fixed;
 	width: 100%;
-
-	.navbar-inverse{
-		border:0px;
-		border-bottom: 1px solid #e35f05;
-
-
-	}
 }
 
 .navbar-inverse .navbar-toggle{
@@ -22,7 +15,12 @@
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-	background-color: lighten(@brand-success, 5%);
+	background-color: lighten(@brand-success, 10%);
+}
+
+.navbar-inverse{
+	border:0px;
+	border-bottom: 2px solid darken(@brand-primary, 3%);
 }
 
 #wrapper {
@@ -140,7 +138,7 @@
 
 
 .sidebar-nav > .sidebar-brand {
-	height: 45px;
+	height: 70px;
 	font-size: 18px;
 	line-height: 60px;
 	color: #FFF;
@@ -217,7 +215,8 @@
 		width: 100%;
 		padding-right: 40px;
 		height: 60px;
-		background: @brand-primary;
+		border-bottom: 2px solid darken(@brand-primary, 3%);
+		background-color: @brand-primary;
 	}
 
 	.content-right{

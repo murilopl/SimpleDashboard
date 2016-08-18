@@ -9,6 +9,7 @@ angular
     'ui.bootstrap',
     'ui.utils.masks',
     'toaster',
+    'chart.js',
     'angular-loading-bar',
     'home.controllers',
     'home.services',

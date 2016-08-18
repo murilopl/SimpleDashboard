@@ -6637,16 +6637,16 @@ button.close {
   position: fixed;
   width: 100%;
 }
-.navbar .navbar-inverse {
-  border: 0px;
-  border-bottom: 1px solid #e35f05;
-}
 .navbar-inverse .navbar-toggle {
   border: none;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #718382;
+  background-color: #7e8f8e;
+}
+.navbar-inverse {
+  border: 0px;
+  border-bottom: 2px solid #254353;
 }
 #wrapper {
   padding-left: 0;
@@ -6748,7 +6748,7 @@ button.close {
   background: #657574;
 }
 .sidebar-nav > .sidebar-brand {
-  height: 45px;
+  height: 70px;
   font-size: 18px;
   line-height: 60px;
   color: #FFF;
@@ -6818,7 +6818,8 @@ button.close {
     width: 100%;
     padding-right: 40px;
     height: 60px;
-    background: #2a4c5e;
+    border-bottom: 2px solid #254353;
+    background-color: #2a4c5e;
   }
 }
 .topbar .content-right {
@@ -6910,7 +6911,54 @@ button.close {
 .page .body {
   margin-top: 25px;
 }
-.page .body .homepanels .col-md-4 {
+.page .body .homepanels .col-xs-1,
+.page .body .homepanels .col-sm-1,
+.page .body .homepanels .col-md-1,
+.page .body .homepanels .col-lg-1,
+.page .body .homepanels .col-xs-2,
+.page .body .homepanels .col-sm-2,
+.page .body .homepanels .col-md-2,
+.page .body .homepanels .col-lg-2,
+.page .body .homepanels .col-xs-3,
+.page .body .homepanels .col-sm-3,
+.page .body .homepanels .col-md-3,
+.page .body .homepanels .col-lg-3,
+.page .body .homepanels .col-xs-4,
+.page .body .homepanels .col-sm-4,
+.page .body .homepanels .col-md-4,
+.page .body .homepanels .col-lg-4,
+.page .body .homepanels .col-xs-5,
+.page .body .homepanels .col-sm-5,
+.page .body .homepanels .col-md-5,
+.page .body .homepanels .col-lg-5,
+.page .body .homepanels .col-xs-6,
+.page .body .homepanels .col-sm-6,
+.page .body .homepanels .col-md-6,
+.page .body .homepanels .col-lg-6,
+.page .body .homepanels .col-xs-7,
+.page .body .homepanels .col-sm-7,
+.page .body .homepanels .col-md-7,
+.page .body .homepanels .col-lg-7,
+.page .body .homepanels .col-xs-8,
+.page .body .homepanels .col-sm-8,
+.page .body .homepanels .col-md-8,
+.page .body .homepanels .col-lg-8,
+.page .body .homepanels .col-xs-9,
+.page .body .homepanels .col-sm-9,
+.page .body .homepanels .col-md-9,
+.page .body .homepanels .col-lg-9,
+.page .body .homepanels .col-xs-10,
+.page .body .homepanels .col-sm-10,
+.page .body .homepanels .col-md-10,
+.page .body .homepanels .col-lg-10,
+.page .body .homepanels .col-xs-11,
+.page .body .homepanels .col-sm-11,
+.page .body .homepanels .col-md-11,
+.page .body .homepanels .col-lg-11,
+.page .body .homepanels .col-xs-12,
+.page .body .homepanels .col-sm-12,
+.page .body .homepanels .col-md-12,
+.page .body .homepanels .col-lg-12 {
   padding: 5px;
 }
 .page .body .homepanels .item {

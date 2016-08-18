@@ -4,7 +4,13 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "express": "~4.13.4"
+    "express": "~4.13.4",
+    "chart.js": "~2.2.1",
+    "angular-chart.js": "~1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murilopl/SimpleDashboard.git"
   },
   "devDependencies": {
     "browser-sync": "^2.12.1",

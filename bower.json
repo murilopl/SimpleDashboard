@@ -33,7 +33,7 @@
     "animate.css": "latest",
     "bootstrap": "latest",
     "font-awesome": "latest",
-    "moment": "latest",
+    "moment": "^2.14.1",
     "slimscroll": "latest",
     "simple-line-icons": "latest",
     "bootstrap-daterangepicker": "latest",
