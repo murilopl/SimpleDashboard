@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6637,16 +6637,16 @@ button.close {
   position: fixed;
   width: 100%;
 }
-.navbar .navbar-inverse {
-  border: 0px;
-  border-bottom: 1px solid #e35f05;
-}
 .navbar-inverse .navbar-toggle {
   border: none;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #718382;
+  background-color: #7e8f8e;
+}
+.navbar-inverse {
+  border: 0px;
+  border-bottom: 2px solid #254353;
 }
 #wrapper {
   padding-left: 0;
@@ -6748,12 +6748,18 @@ button.close {
   background: #657574;
 }
 .sidebar-nav > .sidebar-brand {
-  height: 45px;
+  height: 70px;
   font-size: 18px;
-  line-height: 60px;
   color: #FFF;
   text-indent: 0px;
   text-align: center;
+  line-height: 5px;
+}
+.sidebar-nav > .sidebar-brand p a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #b4bfbe;
+  transition: 0.5s;
 }
 .sidebar-nav > .sidebar-brand a {
   color: #FFF;
@@ -6818,7 +6824,8 @@ button.close {
     width: 100%;
     padding-right: 40px;
     height: 60px;
-    background: #2a4c5e;
+    border-bottom: 2px solid #254353;
+    background-color: #2a4c5e;
   }
 }
 .topbar .content-right {
@@ -6910,7 +6917,54 @@ button.close {
 .page .body {
   margin-top: 25px;
 }
-.page .body .homepanels .col-md-4 {
+.page .body .homepanels .col-xs-1,
+.page .body .homepanels .col-sm-1,
+.page .body .homepanels .col-md-1,
+.page .body .homepanels .col-lg-1,
+.page .body .homepanels .col-xs-2,
+.page .body .homepanels .col-sm-2,
+.page .body .homepanels .col-md-2,
+.page .body .homepanels .col-lg-2,
+.page .body .homepanels .col-xs-3,
+.page .body .homepanels .col-sm-3,
+.page .body .homepanels .col-md-3,
+.page .body .homepanels .col-lg-3,
+.page .body .homepanels .col-xs-4,
+.page .body .homepanels .col-sm-4,
+.page .body .homepanels .col-md-4,
+.page .body .homepanels .col-lg-4,
+.page .body .homepanels .col-xs-5,
+.page .body .homepanels .col-sm-5,
+.page .body .homepanels .col-md-5,
+.page .body .homepanels .col-lg-5,
+.page .body .homepanels .col-xs-6,
+.page .body .homepanels .col-sm-6,
+.page .body .homepanels .col-md-6,
+.page .body .homepanels .col-lg-6,
+.page .body .homepanels .col-xs-7,
+.page .body .homepanels .col-sm-7,
+.page .body .homepanels .col-md-7,
+.page .body .homepanels .col-lg-7,
+.page .body .homepanels .col-xs-8,
+.page .body .homepanels .col-sm-8,
+.page .body .homepanels .col-md-8,
+.page .body .homepanels .col-lg-8,
+.page .body .homepanels .col-xs-9,
+.page .body .homepanels .col-sm-9,
+.page .body .homepanels .col-md-9,
+.page .body .homepanels .col-lg-9,
+.page .body .homepanels .col-xs-10,
+.page .body .homepanels .col-sm-10,
+.page .body .homepanels .col-md-10,
+.page .body .homepanels .col-lg-10,
+.page .body .homepanels .col-xs-11,
+.page .body .homepanels .col-sm-11,
+.page .body .homepanels .col-md-11,
+.page .body .homepanels .col-lg-11,
+.page .body .homepanels .col-xs-12,
+.page .body .homepanels .col-sm-12,
+.page .body .homepanels .col-md-12,
+.page .body .homepanels .col-lg-12 {
   padding: 5px;
 }
 .page .body .homepanels .item {
@@ -6927,6 +6981,81 @@ button.close {
 }
 .page .body .homepanels .item .item-body {
   padding: 10px;
+}
+.todolist {
+  padding: 0px;
+  position: relative;
+}
+.todolist li {
+  padding: 1px;
+  list-style: none;
+  background: #ebeeee;
+  margin-bottom: 5px;
+}
+.todolist li .checkbox {
+  position: relative;
+  display: block;
+  padding-left: 45px;
+  cursor: pointer;
+  color: #657574;
+  font-size: 14px;
+  font-weight: 600;
+}
+.todolist li .checkbox input {
+  visibility: hidden;
+}
+.todolist li .checkbox .indicator {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  background: #d0d6d6;
+  transition: 0.2s;
+}
+.todolist li .checkbox .indicator:after {
+  position: absolute;
+  display: none;
+  content: '';
+}
+.todolist li .checkbox:hover input ~ .indicator,
+.todolist li .checkbox input:focus ~ .indicator {
+  background: #657574;
+}
+.todolist li .checkbox input:checked ~ .indicator {
+  background: none;
+  border: solid #2a4c5e;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox:hover input:not([disabled]):checked ~ .indicator,
+.todolist li .checkbox input:checked:focus ~ .indicator {
+  background: none;
+  border: solid #657574;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox:hover input:not([disabled]):checked ~ .indicator,
+.todolist li .checkbox input:checked:focus ~ .indicator {
+  background: none;
+  border: solid #657574;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox input:checked ~ .indicator:after {
+  display: block;
+}
+.todolist li .checkbox input:disabled ~ .indicator:after {
+  border-color: #7b7b7b;
 }
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
