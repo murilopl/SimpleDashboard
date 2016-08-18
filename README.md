@@ -11,6 +11,13 @@ $ npm install
 $ bower install
 ```
 
+# Changing Colors
+Open /resources/less/bootstrap/variables.less
+```
+@brand-primary: <PRIMARY COLOR>;
+@brand-success: <SECONDARY COLOR>;
+```
+
 # Run
 ```
 $ gulp
