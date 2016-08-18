@@ -1,7 +1,10 @@
 <div id="wrapper" ng-class="{ 'toggled': menu }">
   <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
-      <li class="sidebar-brand"><h3>{{app.name}}</h3></li>
+      <li class="sidebar-brand">
+        <h3>{{app.name}}</h3>
+        <p><a href="http://www.muriloparente.com/">by Murilo Parente</a></p>
+      </li>
       <li class="item submenu">
         <a ng-click="collapsedMeeting=!collapsedMeeting">Meeting <span class="caret"></span></a>
         <ul uib-collapse="collapsedMeeting">

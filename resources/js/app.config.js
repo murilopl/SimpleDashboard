@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('simpledashboard')
+  .module('SimpleDashboard')
   .run(
     function($rootScope){
       var app = {
