@@ -39,7 +39,6 @@
     "bootstrap-daterangepicker": "latest",
     "bootstrap-tagsinput": "latest",
     "angular-input-masks": "latest",
-    "angular-br-filters": "latest",
     "AngularJS-Toaster": "angularjs-toaster#^2.0.0",
     "ngstorage": "^0.3.11",
     "angular-loading-bar": "^0.9.0"

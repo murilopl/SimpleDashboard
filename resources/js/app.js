@@ -9,7 +9,6 @@ angular
     'ui.bootstrap',
     'ui.utils.masks',
     'toaster',
-    'idf.br-filters',
     'angular-loading-bar',
     'home.controllers',
     'home.services',
