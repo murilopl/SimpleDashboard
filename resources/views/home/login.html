@@ -1,0 +1,18 @@
+<div class="home-login">
+  <h1>Wellcome!</h1>
+  <p>You don't need credentials to login, just click on Sing In.</p>
+	<form role="form" ng-submit="submit(user)">
+    <div class="alert alert-danger" role="alert" ng-show="authError">Error!</div>
+		<div class="form-content">
+			<div class="form-group">
+				<input type="text" ng-model="user.email" class="form-control input-underline input-lg" id="" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<input type="password" ng-model="user.password" class="form-control input-underline input-lg" id="" placeholder="Password">
+			</div>
+		</div>
+		<button type="submit" class="btn btn-block btn-primary btn-lg">Sign In</button>
+    <p>Not have account?</p>
+		<button type="button" class="btn btn-block btn-default btn-lg">Sign Up</button>
+	</form>
+</div>

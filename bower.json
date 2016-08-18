@@ -1,0 +1,47 @@
+{
+  "name": "casadamamae",
+  "authors": [
+    "Murilo Parente <muriloparentel@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-animate": "latest",
+    "angular-touch": "latest",
+    "angular-bootstrap": "latest",
+    "angular-ui-router": "latest",
+    "angular-ui-utils": "latest",
+    "angular-file-upload": "latest",
+    "angular-ui-select": "latest",
+    "angular-ui-calendar": "latest",
+    "angular-ui-grid": "latest",
+    "angular-xeditable": "latest",
+    "angular-smart-table": "latest",
+    "angularjs-toaster": "latest",
+    "jquery": "latest",
+    "animate.css": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "moment": "latest",
+    "slimscroll": "latest",
+    "simple-line-icons": "latest",
+    "bootstrap-daterangepicker": "latest",
+    "bootstrap-tagsinput": "latest",
+    "angular-input-masks": "latest",
+    "angular-br-filters": "latest",
+    "AngularJS-Toaster": "angularjs-toaster#^2.0.0",
+    "ngstorage": "^0.3.11",
+    "angular-loading-bar": "^0.9.0"
+  }
+}

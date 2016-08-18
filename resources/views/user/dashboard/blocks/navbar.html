@@ -1,0 +1,17 @@
+<div id="wrapper" ng-class="{ 'toggled': menu }">
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"><h3>{{app.name}}</h3></li>
+      <li class="item submenu">
+        <a ng-click="collapsedMeeting=!collapsedMeeting">Meeting <span class="caret"></span></a>
+        <ul uib-collapse="collapsedMeeting">
+          <li class="item" ui-sref-active="active" ng-click="showmenu()"><a ui-sref="overview">Overview</a></li>
+          <li class="item" ui-sref-active="active" ng-click="showmenu()"><a ui-sref="about">About</a></li>
+        </ul>
+      </li>
+      <li class="item" ui-sref-active="active">
+        <a>Installing</a>
+      </li>
+    </ul>
+  </div>
+</div>

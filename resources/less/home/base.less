@@ -1,0 +1,92 @@
+.home{
+
+  .row{
+    padding: 0;
+    margin: 0;
+    padding-top: 4%;
+
+    .section{
+      .view{
+      }
+    }
+  }
+
+  .logo{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #FFF;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+    @media screen and (min-width: 768px) {
+      padding-top: 20%;
+      font-size: 4em;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 50px;
+      padding-top: 50px;
+    }
+    p{
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      a{
+        color: #FFF;
+        text-decoration: none;
+      }
+      font-size: 20px;
+    }
+  }
+}
+
+.home-login{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #FFF;
+  margin-bottom: 5%;
+
+  p{
+    padding-top: 5px;
+  }
+
+  .adjust{
+    @media screen and (min-width: 768px) {
+      width: calc(49% + 0.5px);
+    }
+  }
+
+  input{
+  	background: none;
+  	border: none;
+  	box-shadow: none;
+  	border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  	border-radius: 0;
+    color: #FFF;
+    font-size: 18px;
+
+
+  	&::-moz-placeholder {
+  	  color: rgba(255, 255, 255, 0.7);
+  	}
+  	&::-ms-input-placeholder {
+  	  color: rgba(255, 255, 255, 0.7);
+  	}
+  	&::-webkit-input-placeholder {
+  	  color: rgba(255, 255, 255, 0.7);
+  	}
+
+  	&:focus {
+  		border-bottom: 2px solid rgba(255, 255, 255, 1);
+  		box-shadow: none;
+  	}
+  }
+  h1 {
+		font-weight: 300;
+    color: #FFF;
+	}
+
+  .form-group{
+    padding: 8px 0px;
+  }
+}

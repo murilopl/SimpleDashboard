@@ -1,0 +1,20 @@
+{
+  "name": "casadamamae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "express": "~4.13.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.1",
+    "gulp": "^3.9.1",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-less": "^3.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
