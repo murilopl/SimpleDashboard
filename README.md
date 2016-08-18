@@ -25,5 +25,5 @@ $ gulp
  - views/user/ - Dashboard views
  - less/ - Style (compile all in css/app.css)
 
-[Murilo Parente]: www.muriloparente.com
-[DEMO]: murilopl.github.io/simpledashboard
+[Murilo Parente]: http://www.muriloparente.com
+[DEMO]: https://murilopl.github.io/SimpleDashboard/
