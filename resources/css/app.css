@@ -6910,22 +6910,22 @@ button.close {
 .page .body {
   margin-top: 25px;
 }
-.page .body .cardapio .col-md-4 {
+.page .body .homepanels .col-md-4 {
   padding: 5px;
 }
-.page .body .cardapio .item {
+.page .body .homepanels .item {
   background: #fff;
   width: 100%;
   border-radius: 5px 5px 10px 10px;
 }
-.page .body .cardapio .item .item-title {
+.page .body .homepanels .item .item-title {
   padding: 10px;
   font-size: 22px;
   background-color: #657574;
   color: #FFF;
   border-radius: 5px;
 }
-.page .body .cardapio .item .item-body {
+.page .body .homepanels .item .item-body {
   padding: 10px;
 }
 /*!
