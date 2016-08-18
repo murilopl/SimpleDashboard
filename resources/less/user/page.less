@@ -38,3 +38,84 @@
     }
   }
 }
+
+.todolist{
+  padding: 0px;
+  position: relative;
+  li{
+    padding: 1px;
+    list-style: none;
+    background: lighten(@brand-success, 50%);
+    margin-bottom:5px;
+
+    .checkbox{
+    	position: relative;
+    	display: block;
+    	padding-left: 45px;
+    	cursor: pointer;
+      color: @brand-success;
+      font-size: 14px;
+      font-weight: 600;
+
+      input {
+        visibility: hidden;
+      }
+
+      .indicator {
+      	position: absolute;
+      	top: -2px;
+      	left: 10px;
+      	width: 24px;
+      	height: 24px;
+      	background: lighten(@brand-success, 40%);
+        transition: 0.2s;
+
+        &:after {
+        	position: absolute;
+        	display: none;
+        	content: '';
+        }
+      }
+      &:hover input ~ .indicator,
+      & input:focus ~ .indicator {
+      	background:@brand-success;
+      }
+      & input:checked ~ .indicator {
+      	background:none;
+        border: solid @brand-primary;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        width: 13px;
+        height: 20px;
+        left: 15px;
+      }
+      &:hover input:not([disabled]):checked ~ .indicator,
+      & input:checked:focus ~ .indicator {
+      	background:none;
+        border: solid @brand-success;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        width: 13px;
+        height: 20px;
+        left: 15px;
+      }
+      &:hover input:not([disabled]):checked ~ .indicator,
+      & input:checked:focus ~ .indicator {
+      	background:none;
+        border: solid @brand-success;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        width: 13px;
+        height: 20px;
+        left: 15px;
+      }
+      input:checked ~ .indicator:after {
+      	display: block;
+      }
+      input:disabled ~ .indicator:after {
+      	border-color: #7b7b7b;
+      }
+
+    }
+  }
+}

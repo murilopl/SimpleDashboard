@@ -6750,10 +6750,16 @@ button.close {
 .sidebar-nav > .sidebar-brand {
   height: 70px;
   font-size: 18px;
-  line-height: 60px;
   color: #FFF;
   text-indent: 0px;
   text-align: center;
+  line-height: 5px;
+}
+.sidebar-nav > .sidebar-brand p a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #b4bfbe;
+  transition: 0.5s;
 }
 .sidebar-nav > .sidebar-brand a {
   color: #FFF;
@@ -6975,6 +6981,81 @@ button.close {
 }
 .page .body .homepanels .item .item-body {
   padding: 10px;
+}
+.todolist {
+  padding: 0px;
+  position: relative;
+}
+.todolist li {
+  padding: 1px;
+  list-style: none;
+  background: #ebeeee;
+  margin-bottom: 5px;
+}
+.todolist li .checkbox {
+  position: relative;
+  display: block;
+  padding-left: 45px;
+  cursor: pointer;
+  color: #657574;
+  font-size: 14px;
+  font-weight: 600;
+}
+.todolist li .checkbox input {
+  visibility: hidden;
+}
+.todolist li .checkbox .indicator {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  background: #d0d6d6;
+  transition: 0.2s;
+}
+.todolist li .checkbox .indicator:after {
+  position: absolute;
+  display: none;
+  content: '';
+}
+.todolist li .checkbox:hover input ~ .indicator,
+.todolist li .checkbox input:focus ~ .indicator {
+  background: #657574;
+}
+.todolist li .checkbox input:checked ~ .indicator {
+  background: none;
+  border: solid #2a4c5e;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox:hover input:not([disabled]):checked ~ .indicator,
+.todolist li .checkbox input:checked:focus ~ .indicator {
+  background: none;
+  border: solid #657574;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox:hover input:not([disabled]):checked ~ .indicator,
+.todolist li .checkbox input:checked:focus ~ .indicator {
+  background: none;
+  border: solid #657574;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 20px;
+  left: 15px;
+}
+.todolist li .checkbox input:checked ~ .indicator:after {
+  display: block;
+}
+.todolist li .checkbox input:disabled ~ .indicator:after {
+  border-color: #7b7b7b;
 }
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
