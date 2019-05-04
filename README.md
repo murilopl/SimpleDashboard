@@ -1,3 +1,4 @@
+#### This project is no longer maintained.
 # **Simple Dashboard**
 by [Murilo Parente]
 
